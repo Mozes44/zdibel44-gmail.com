@@ -1,0 +1,89 @@
+body {background:url("qwe.gif");
+}
+main{background-color: black;
+	width: 1200px;
+	height:2600px;
+	margin: 0 auto;
+}	
+nav{
+	height: 100px;
+	background-color: green;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white;
+}
+.gif_qwe{
+	float: left;
+	width: 600px;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.gif_qwe img{
+height: 100px;
+}
+
+.nav_menu {
+	width: 600px;
+	float: right;
+	height: 100px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav_menu li{
+	font-family: Times New Ro...;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+li:hover{
+	background:#ff9933;
+	cursor: pointer;
+	color:#402720;  
+}
+
+.logo1{ 
+	height: 100px;
+	width: 260px;
+	background-color: pink;
+}
+.logo2{
+	height: 50px;
+	width: 120px;
+	background-color: grey;
+}
+.Photo img{
+width: 1200px;
+}
+.Photo1 {
+	width: 500px;
+	height: 500px;
+float: left;
+}
+.Photo1 img{
+	width: 550px;
+	
+}
+.Text{
+	float: right;
+	width: 650px;
+	height:500px ;
+}
+.video{
+	text-align: center;
+	font-size: 100px;
+}
+.video a{
+	color: blue;
+}
